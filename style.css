@@ -1,0 +1,455 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #EFFFF8;
+    min-height: 100vh;
+    width: 100%;
+    font-family: Calibri;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.header{
+    background-color: #EFFFF8;
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    object-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFFFF8;
+}
+.second{
+    height: 50px;
+    width: 45%;
+    /* background-color: #EFFFF8; */    
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-right: 110px;
+}  
+
+a :active{
+    text-decoration: underline;
+    color: black;
+}
+.navs{
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.holder{
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EFFFF8;
+}
+.hero{
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+     
+}
+.heroHold{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.heroText{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.hero h2{
+    font-weight:800;
+    color: #101A4F;
+    font-size: 50px;
+    line-height: 60px;
+}
+.hero p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}  
+.image{
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-right: 90px;
+}
+.hold {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-self: start;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.one{
+    background-color: #1BB16B;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border-color: transparent;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+
+}
+.two{
+    background-color:transparent;
+    color: #101A4F;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two img{
+    width: 30px;
+    height: 30px;
+}
+.section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    
+}
+.sectionimage{
+    width: 50%;
+    height: 90%;
+
+}
+.held{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    font-family: Calibri;
+    margin-bottom: 20px;
+}
+.lol{
+    color: #1BB16B;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.lol1{
+    color: black;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.helder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.sectiontext{
+    width: 500px;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.textarea{
+    width: 500px;
+    height: 200px;
+}
+.textarea h2{
+    color: #1BB16B;
+}
+.textarea h3{
+    font-size: 20px;
+}
+.icon{
+    display:flex ;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+.icon img{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.textarea button{
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.sectionTwo{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    background-color: #EFFFF8;
+    align-items: center;
+    justify-content: center;
+}
+.sectionTwoHold{
+    width: 90%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 20px;
+}
+.twoOne{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.our{
+    color: #1DBF73;
+}
+.micro{
+    color: #101A4F;
+}
+.twoTwo{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.twoThree{
+    width: 230px;
+    height: 50px;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #101A4F;
+}
+.twoFour{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+.twoFive{
+    width: 300px;
+    align-self: flex-start;
+    height: 50px;
+    border-radius: 7px;
+    background-color:#1DBF73;
+    display: flex;
+    color:white;
+    font-size: 18px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.twoFourDiv{
+    width: 100%;
+    height: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.divThree{
+    width: 33.3%;
+    height: 100%;
+    box-shadow: 2px 2px 25px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divThreeOne{
+    display: flex;
+    height: 95%;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.aws{
+    height: 20px;
+    width: 400px;
+    font-size: 23px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+}
+.divThreeImg{
+    height: 80%;
+    width: 70%;
+}
+.divThreeBtn{
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: #232C5D;
+    color: white;
+    border-color: transparent;
+
+}
+
+.sectionThree{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.sectionThreeHold{
+    height: 500px;
+    width: 90%;
+    display: flex;    
+    justify-content: center;   
+    background-color: aqua;
+}
+
+.COD{
+    display: flex;
+    height: 100%;
+    width: 50%;
+   
+    flex-direction: column ;
+}
+
+
+
+
+.Roblox{
+    height: 50px;
+    width: 400px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.Weapons{
+    font-size: 30px;
+    color: #1BB16B;
+}
+
+.Skin{
+    font-size: 18px;
+}
+
+.PUBG{
+    height: 40%;
+    width: 50%;
+    
+    font-size: 15px;
+    align-self: flex-end;
+}
+.FIFA{
+height: 40%;
+width: 50%;
+
+font-size: 15px;
+align-self: flex-end;
+
+}
+
+.GoldenBoot{
+    font-size: 30px;
+    color: #1BB16B;
+}
+
+.Goal{
+    font-size: 18px;
+}
+.FF{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.btn2{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    
+}
+
